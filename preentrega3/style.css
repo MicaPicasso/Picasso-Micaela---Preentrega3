@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond';
+    font-weight: 600;
+
+}
+
+
+#form-login{
+    border: 3px solid black;
+    width: 45%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-top: 40px;
+    font-size: 60px;
+    font-family: 'Castoro Titling', cursive;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 40px;
+}
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration:underline;
+    font-size: 25px;
+}
+
+#user{
+    padding: 20px 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#pass, #nombre{
+    margin-top: 20px;
+    padding: 20px 100px;
+    font-size: 20px;
+    text-align: center;
+}
+.check{
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+h3, a{
+    margin-top: 50px;
+    font-size: 27px;
+}
+a{
+    text-decoration: none;
+    margin-bottom: 40px;
+    color: black;
+}
+.btn{
+    margin-top: 40px;
+    padding: 12px 40px;
+    font-size: 20px;
+    font-family: 'Castoro Titling';
+}
+
+#form-register{
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#form-register p{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#form-register h2{
+    font-family:'Castoro Titling';
+    font-size: 30px;
+}
+#form-register input[type= "text"], #form-register input[type= "password"]{
+    padding: 10px;
+}
+
+
+#form-register input[type= "submit"]{
+    width: 200px;
+    padding: 10px 0;
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+}
+
+.info-usuario{
+    font-size: 35px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.opcion{
+    margin: 20px 50px;
+    padding:10px 20px;
+    font-size: 30px;
+    width: 50%;
+}
+
+h2 ol li{
+    text-decoration: none;
+}
+
+.opciones{
+    margin-left: 50px;
+    font-size: 27px;
+}
+
+h2 ol{
+    margin-top: 20px;
+}
+
+.opcion{
+    border-width: 3px;
+    width: 15px;
+    background-color: #C7F8FC;
+}
+
+.salida{
+    margin-left: 50px;
+    font-size: 32px;
+    margin-bottom: 300px;
+}
